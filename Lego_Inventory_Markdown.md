@@ -23,8 +23,10 @@ You can find the [inventory here](https://docs.google.com/spreadsheets/d/1e5OsPt
 The columns of the inventory relate to the shape/size of a piece and the rows correspond to the color. It is worth mentioning that there is no difference whether you assign the colors to the rows or the columns!
 
 Also, below each column, several sub-columns correspond to the different shapes and then their specific size. For instance, one of the shapes among Lego pieces is rectangle and there are also different sizes such as 2*1, 2*4, and so on. For the last sub-column, we used categorical variables such as small, big, and flat.
-![image](https://github.com/user-attachments/assets/af98e5d5-1c97-47a9-90d1-8d1e12ceda1b)
 
+![image](https://github.com/user-attachments/assets/dbba84c0-9577-43a0-bba0-a7498f29ffdd)
+
+The picture above represents a simple overview of what the rows and columns of the inventory look like.
 
 ### 2.1. Size/Shape
 
