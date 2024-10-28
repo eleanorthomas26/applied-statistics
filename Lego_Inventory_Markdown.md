@@ -12,7 +12,8 @@
     + Outgoing Pieces
 
 ## Introduction and Purpose
-At first, we were given approximately one hundred Lego pieces and were supposed to come up with a structured inventory which included every single Lego piece information and also quantity. These pieces consist of different shapes, sizes, usages and colors which we as a group had to categorize in the right way. In general, the inventory is designed to provide an overview of the stock for a Lego Reselling company.
+At first, we were given approximately one hundred Lego pieces and were supposed to create a structured inventory which included information and quantity of every single Lego piece. These pieces consist of different shapes, sizes, uses and colors which we as a group had to categorize correctly. In general, the inventory is designed to provide an overview of the stock for a Lego Reselling company.
+
 As for the purpose, after preparing a complete overview of the inventory, we can decide on further planning and also how to deal with various orders. The overview of the inventory in a Google Sheet serves as an assistance to monitor the whole supply and demand flows.
 
 You can find the [inventory here](https://docs.google.com/spreadsheets/d/1e5OsPttHjQvtAFLUt-rMEAGYMcvyG97LAem_8MwMLfk/edit?gid=450027551#gid=450027551).
