@@ -5,22 +5,22 @@
 1. Introduction and Purpose
 2. Structure of the Inventory
     + Sizes
-    + Colour
+    + Colors
 3. How to use the Inventory
     + Stock Overview
     + Incoming Pieces
     + Outgoing Pieces
 
-## Introduction and Purpose
+## 1. Introduction and Purpose
 At first, we were given approximately one hundred Lego pieces and were supposed to create a structured inventory which included information and quantity of every single Lego piece. These pieces consist of different shapes, sizes, uses and colors which we as a group had to categorize correctly. In general, the inventory is designed to provide an overview of the stock for a Lego Reselling company.
 
 As for the purpose, after preparing a complete overview of the inventory, we can decide on further planning and also how to deal with various orders. The overview of the inventory in a Google Sheet serves as an assistance to monitor the whole supply and demand flows.
 
 You can find the [inventory here](https://docs.google.com/spreadsheets/d/1e5OsPttHjQvtAFLUt-rMEAGYMcvyG97LAem_8MwMLfk/edit?gid=450027551#gid=450027551).
 
-## Structure of Inventory
+## 2. Structure of the Inventory
 
-The coloumns of the inventory relate to the shape/size of a piece and the rows correspond to the colour. 
+The columns of the inventory relate to the shape/size of a piece and the rows correspond to the color. It is worth mentioning that there is no difference whether you assign the colors to the rows or the columns!
 
 ### Size/Shape
 
