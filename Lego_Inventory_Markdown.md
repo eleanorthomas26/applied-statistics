@@ -4,7 +4,7 @@
 ## Contents
 1. Introduction and Purpose
 2. Structure of the Inventory
-    + 2.1. Sizes
+    + 2.1. Sizes/Shapes
     + 2.2. Colors
 3. How to use the Inventory
     + 3.1. Stock Overview
@@ -22,16 +22,16 @@ You can find the [inventory here](https://docs.google.com/spreadsheets/d/1e5OsPt
 
 The columns of the inventory relate to the shape/size of a piece and the rows correspond to the color. It is worth mentioning that there is no difference whether you assign the colors to the rows or the columns!
 
-Also, below each column, several sub-columns correspond to the different shapes and then their specific size. For instance, one of the shapes among Lego pieces is rectangle and there are also different sizes such as 2*1, 2*4, and so on. For the last sub-column, we used categorical variables such as small, big, and flat.
+Also, below each column, several sub-columns correspond to the different shapes and then their specific size. For instance, one of the shapes among Lego pieces is rectangle and there are also different sizes such as 2x1, 2x4, and so on. For the last sub-column, we used categorical variables such as small, big, and flat.
 
 ![image](https://github.com/user-attachments/assets/dbba84c0-9577-43a0-bba0-a7498f29ffdd)
 
 The picture above represents a simple overview of what the rows and columns of the inventory look like.
 
-### 2.1. Size/Shape
+### 2.1. Sizes/Shapes
 
-Pieces are first divided into general shape categories e.g. square, rectangle, circle, sword. 
-The next subcategory divides shapes based on the number of holes/studs. 
+Pieces are first divided into general shape categories e.g. square, rectangle, trapezoid, circle, sword. 
+The next subcategory divides shapes based on the number of holes/studs (length and width). 
 The final subcategory considers the depth of the piece: 
 + Big refers to duplo pieces
 + Small refers to standard Lego pieces
@@ -39,12 +39,19 @@ The final subcategory considers the depth of the piece:
 
 ### Notes on size/shape
 We did not label the direction of the slope of a trapezoid.
-We did not consider the inner hub of a wheel and the tyre as seperate pieces. 
+We did not consider the inner hub of a wheel and the tyre as separate pieces.
+The above-mentioned notes are points that could help in improving the precision of the inventory. However, without considering them, we still managed to create a understandable and practical inventory.
 
 
 ### 2.2. Colors
 
-Colors have a general description. Where there are more than two shades of one colour, we have included a second tab with reference photos and RBG to identify the different shades. 
+Colors have a general description. Where there are more than two shades of one color, we have included a second tab with reference photos and RBG to identify the different shades.
+
+Some colors such as green and blue had various spectrums which could not be overlooked. In order not to misclassify the colors, we took a picture of different colors and used them as our reference to classify other Lego pieces based on their colors.
+
+![image](https://github.com/user-attachments/assets/96325326-31ec-4bff-a6d5-d30ac3b1e403)
+
+The picture above shows how we tried to identify each single color related to each other.
 
 ## How to use the inventory
 
