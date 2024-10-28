@@ -1,6 +1,6 @@
 # Lego Inventory
 ***Assignment 2 - Group 5***
-![image](https://github.com/user-attachments/assets/0a8d9dd9-b834-475c-83e7-7a7216bf8762)
+![LEGO_logo svg](https://github.com/user-attachments/assets/5d485b23-c369-4161-9eb2-aadcf8fef3fe)
 
 
 ## Contents
