@@ -1,5 +1,7 @@
 # Lego Inventory
 ***Assignment 2 - Group 5***
+![image](https://github.com/user-attachments/assets/0a8d9dd9-b834-475c-83e7-7a7216bf8762)
+
 
 ## Contents
 1. Introduction and Purpose
