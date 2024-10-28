@@ -1,4 +1,5 @@
 # Lego Inventory
+## Assignment 2 - Group 5
 
 ## Contents
 1. Purpose of the Inventory
