@@ -11,7 +11,7 @@
     + Outgoing Pieces
 
 ## Introduction
-What is the purpose ofthe document we have created?
+The inventory is designed to provide an overview of the stock for a Lego Reselling company. 
 
 You can find the [inventory here](https://docs.google.com/spreadsheets/d/1e5OsPttHjQvtAFLUt-rMEAGYMcvyG97LAem_8MwMLfk/edit?gid=450027551#gid=450027551).
 
