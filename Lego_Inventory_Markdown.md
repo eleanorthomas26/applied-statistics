@@ -43,6 +43,22 @@ Colours have a general description. Where there are more than two shades of one 
 
 #### Previously recieved piece
 
+Locate the piece in the table and increase the number in the cell by 1.
+
 #### New piece
 
+First define if it is the shap, colour or both which are new. 
+
+For a new shape:
++ Decide what level of cateogry needs to be added e.g. is it a new type of sqaure or is it a whole new shape alltogether
++ Add the appropriate columns
+
+For a new colour:
++ Decide if it is a new shade or a whole new colour
++ If it is a new shade of an exisiting colour, create a entry in the colour tab to explain the difference in RGB, alter the names of the shades to make identification easier (e.g. 'light' or 'dark') and then add a row for the new colour
+
+Once the correct rows and column exists, increase the correct cell by 1 to mark the incoming piece. 
+
 ### Outgoing Piceces
+
+Locate the piece in the table and decrease the number in the cell by 1.
