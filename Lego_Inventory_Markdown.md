@@ -1,5 +1,5 @@
 # Lego Inventory
-## **Assignment 2 - Group 5**
+**Assignment 2 - Group 5**
 
 ## Contents
 1. Introduction and Purpose
