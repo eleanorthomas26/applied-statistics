@@ -37,7 +37,7 @@ The final subcategory considers the depth of the piece:
 + Small refers to standard Lego pieces
 + Flat refers to pieces that are flat
 
-### Notes on size/shape
+### + Notes on size/shape
 We did not label the direction of the slope of a trapezoid.
 We did not consider the inner hub of a wheel and the tyre as separate pieces.
 The above-mentioned notes are points that could help in improving the precision of the inventory. However, without considering them, we still managed to create a understandable and practical inventory.
