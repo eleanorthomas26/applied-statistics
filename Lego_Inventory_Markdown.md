@@ -55,6 +55,14 @@ The picture above shows how we tried to identify each single color related to ea
 
 ## 3. How to use the inventory
 
+### Stock Overview
+After counting all the Lego pieces, we found out that there are 103 pieces consisting of different shapes, sizes, and colors.
+We also defined a simple sum operation to understand how many pieces per shape/color exist. For example, if you look at the last column of the Google sheet, you will notice there exist a total number of 13 red pieces. On the other hand, if you take a look at the last row of the sheet, you will be able to see how many rectangular pieces with the size of 2x4 (small) exist.
+
+![image](https://github.com/user-attachments/assets/0a403a1f-3d8a-4500-91cc-a545911d3c7e)
+
+The picture above shows a part of the inventory in the Google sheet. As can be seen, the quantity of each Lego piece is written, and with the help of the total quantity you can find out what is going on inside the inventory of the company.
+
 ### Incoming Pieces 
 
 #### Previously received piece
@@ -63,18 +71,18 @@ Locate the piece in the table and increase the number in the cell by 1.
 
 #### New piece
 
-First define if it is the shap, colour or both which are new. 
+First define if it is the shape, color, or both which are new. 
 
 For a new shape:
-+ Decide what level of cateogry needs to be added e.g. is it a new type of sqaure or is it a whole new shape alltogether
++ Decide what level of category needs to be added e.g. is it a new type of square or is it a whole new shape altogether
 + Add the appropriate columns
 
-For a new colour:
-+ Decide if it is a new shade or a whole new colour
-+ If it is a new shade of an exisiting colour, create a entry in the colour tab to explain the difference in RGB, alter the names of the shades to make identification easier (e.g. 'light' or 'dark') and then add a row for the new colour
+For a new color:
++ Decide if it is a new shade or a whole new color
++ If it is a new shade of an existing color, create an entry in the color tab to explain the difference in RGB, alter the names of the shades to make identification easier (e.g. 'light' or 'dark'), and then add a row for the new color
 
-Once the correct rows and column exists, increase the correct cell by 1 to mark the incoming piece. 
+Once the correct rows and columns exist, increase the correct cell by 1 to mark the incoming piece. 
 
-### Outgoing Piceces
+### Outgoing Pieces
 
 Locate the piece in the table and decrease the number in the cell by 1.
