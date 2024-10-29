@@ -74,7 +74,7 @@ Locate the piece in the table and increase the number in the cell by 1.
 
 #### New piece
 
-First define if it is the shape, color, or both which are new. 
+First define if it is the shape, color, or both which are new.
 
 *For a new shape:*
 + Decide what level of category needs to be added e.g. is it a new type of square or is it a whole new shape altogether
