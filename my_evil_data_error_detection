@@ -1,0 +1,58 @@
+import pandas as pd
+
+df = pd.read_csv('4_3_my_evil_data.txt', sep=",", header=None)
+df[['Customer', 'Number']] = df[0].str.split(':', n=1, expand=True)
+df[['API', 'Key']] = df[1].str.split(':', n=1, expand=True)
+
+df = df.drop(0, axis=1)
+df = df.drop(1, axis=1)
+
+
+print('This is the data we are working with:')
+display(df)
+
+# Attempting to split off the final digits
+
+df['Main'] = df['Key'].str.slice(0, 115)  # First 115 characters
+df['End'] = df['Key'].str.slice(115)     # Characters after 115
+
+typo_df = pd.DataFrame()
+typo_df_three = pd.DataFrame()
+typo_df_four = pd.DataFrame()
+non_integer_rows = pd.DataFrame()
+
+# Check for typos in first column
+typo_rows_one = ~df['Customer'].astype(str).str.contains('Customer', na=False)
+if typo_rows_one.any():
+    typo_df = df[typo_rows_one]
+    display(typo_df)
+
+# Check for typos in the third column
+typo_rows_three = ~df['API'].astype(str).str.contains('API_Key', na=False)
+if typo_rows_three.any():
+    typo_df_three = df[typo_rows_three]
+    display(typo_df_three)
+
+# Check for errors in column 4 
+pattern = "'!@#$%^&*()qwertyuiopasdfghjklzxcvbnmMNBVCXZLKJHGFDSAPOIUYTREWQQWERTYUIOPASDFGHJKLZXCVBNMMNBVCXZLKJHGFDSAPOIUYTREWQ"
+typo_rows_four = ~df['Key'].astype(str).str.startswith(pattern)
+if typo_rows_four.any():
+    typo_df_four = df[typo_rows_four]
+    print('These rows have errors within the main pattern of the API key:')
+    display(typo_df_four)
+
+
+# Check Number for integers
+non_integer_mask = ~df['Number'].apply(lambda x: isinstance(x, int) or (isinstance(x, str) and x.isdigit()))
+
+if non_integer_mask.any():
+    non_integer_rows = pd.concat([non_integer_rows, df[non_integer_mask]], axis=0)
+
+# Checking end column that they are integers
+non_integer_mask = ~df['End'].apply(lambda x: isinstance(x, int) or (isinstance(x, str) and x.isdigit()))
+
+if non_integer_mask.any():
+    non_integer_rows = pd.concat([non_integer_rows, df[non_integer_mask]], axis=0)
+
+print('These rows have errors with non-integer values in integer columns;')
+display(non_integer_rows)
